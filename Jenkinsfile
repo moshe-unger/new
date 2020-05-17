@@ -4,7 +4,6 @@ node {
         git "https://github.com/moshe-unger/new.git"
     }
     stage("show"){
-        sh "ls"
-       // bat "dir"
+        bat "dir"
     }
 }
